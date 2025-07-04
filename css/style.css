@@ -1,0 +1,151 @@
+:root {
+  --warm-orange: #ff8c42;
+  --soft-peach: #ffd1a9;
+  --cream: #fff8f0;
+  --warm-brown: #8b4513;
+  --soft-gray: #6c757d;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: var(--cream);
+  color: var(--warm-brown);
+}
+
+.navbar {
+  background-color: var(--warm-orange) !important;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: var(--cream) !important;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--soft-peach), var(--cream));
+  padding: 80px 0;
+  border-radius: 0 0 30px 30px;
+  margin-bottom: 40px;
+}
+
+.btn-primary {
+  background-color: var(--warm-orange);
+  border-color: var(--warm-orange);
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--warm-brown);
+  border-color: var(--warm-brown);
+  transform: translateY(-2px);
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  background-color: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-radius: 20px 20px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+.carousel-item img {
+  border-radius: 20px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.form-control {
+  border-radius: 15px;
+  border: 2px solid var(--soft-peach);
+}
+
+.form-control:focus {
+  border-color: var(--warm-orange);
+  box-shadow: 0 0 0 0.2rem rgba(255, 140, 66, 0.25);
+}
+
+footer {
+  background-color: var(--warm-brown);
+  color: white;
+  border-radius: 30px 30px 0 0;
+  margin-top: 60px;
+}
+
+.section-title {
+  color: var(--warm-brown);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.cat-placeholder {
+  background: linear-gradient(45deg, var(--soft-peach), var(--cream));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: var(--warm-orange);
+}
+
+.carousel-caption {
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--warm-brown);
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  margin-top: 20px;
+}
+
+.carousel-indicators button {
+  background-color: var(--warm-orange);
+}
+
+.hero-landing {
+  background: linear-gradient(135deg, var(--soft-peach), var(--cream));
+  padding-top: 80px;
+}
+
+.navbar.fixed-top {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 140, 66, 0.95) !important;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: var(--warm-orange);
+}
+
+.cta-section {
+  background: linear-gradient(135deg, var(--warm-orange), var(--warm-brown));
+  color: white;
+}
+
+.cta-section .btn-primary {
+  background-color: white;
+  color: var(--warm-orange);
+  border-color: white;
+}
+
+.cta-section .btn-primary:hover {
+  background-color: var(--cream);
+  color: var(--warm-brown);
+}
